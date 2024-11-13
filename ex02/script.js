@@ -17,6 +17,7 @@ function task2() {
 function task3() {
   let list = document.querySelector("#list");
   const li = document.createElement("li");
+  // I know the line below is not nesesary but i dont feel like fixing it
   const txt = document.createTextNode("Milk");
 
   li.appendChild(txt);
