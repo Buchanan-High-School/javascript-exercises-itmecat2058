@@ -15,11 +15,11 @@ function task2() {
 
 // Write your task 3 code inside this function!
 function task3() {
-  let list = document.querySelector("#list")
-  const li = document.createElement("li")
-  const txt = document.createTextNode("Milk")
-  li.appendChild(txt)
+  let list = document.querySelector("#list");
+  const li = document.createElement("li");
+  const txt = document.createTextNode("Milk");
 
-  list.append(li)
+  li.appendChild(txt);
+  list.append(li);
   console.log("Running task 3");
 }
