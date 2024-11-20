@@ -20,9 +20,9 @@ function task2A() {
   // Write your code in here
   const colorList = document.querySelector("#color-list");
 
-  Array.from(colorList.children).forEach(item => {
+  colorList.children.forEach(item => {
     console.log(item.innerText);
-});
+  })
 }
 
 function task2B() {
