@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JS Ex04 Template</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
   </head>
   <body>
     <main>
@@ -36,19 +36,19 @@
           <li>Blue</li>
           <li>Violet</li>
         </ul>
-        <p>
-          Once you get part A working, now it's time to update the DOM. Here's
-          another list. Collect all the items in the list and then add them to
-          the target div, but not just the names: the new text should have the
-          word "Hi" added in front for each entry.
-        </p>
-        <ul id="name-list">
-          <li>Mr. Bennett</li>
-          <li>Mrs. Frost</li>
-          <li>Mr. Cribley</li>
-          <li>Mrs. Lentz</li>
-          <li>Mr. Pruett</li>
-        </ul>
+      <p>
+        Once you get part A working, now it's time to update the DOM. Here's
+        another list. Collect all the items in the list and then add them to
+        the target div, but not just the names: the new text should have the
+        word "Hi" added in front for each entry.
+      </p>
+      <ul id="name-list">
+        <li>Mr. Bennett</li>
+        <li>Mrs. Frost</li>
+        <li>Mr. Cribley</li>
+        <li>Mrs. Lentz</li>
+        <li>Mr. Pruett</li>
+      </ul>
         <button onclick="task2A()">Run task 2A!</button>
         <button onclick="task2B()">Run task 2B!</button>
       </section>
@@ -60,7 +60,7 @@
           style property on each element to be the color code itself.
         </p>
         <div class="box flex">
-          <div class="item">
+          <div class="item" >
             <p>F72585</p>
           </div>
           <div class="item">
