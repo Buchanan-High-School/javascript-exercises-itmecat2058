@@ -54,4 +54,12 @@ function task3() {
     // 1. Use the array of teachers to start a loop.
     // 2. In the loop, add a "role" property to each object as they go through the loop
     // 3. Use a template string to add a sentence about each person into the #task3 container.
+    teachers.forEach(item => {
+        item.role = "Teacher"
+        // let template = `The ${person.role} is ${person.name} and he has ${person.experience} years of experience.`
+        let task3 = document.getElementById("task-3")
+        let newtxt = document.createElement("p")
+        newtxt.innerText = `The ${item.role} is ${item.name} and he has ${item.experience} years of experience.`
+        task3.appendChild(newtxt)
+    });
 }
