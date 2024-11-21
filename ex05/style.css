@@ -39,3 +39,15 @@ button:hover {
   padding: 1rem;
 }
 
+.card {
+  background-color: black;
+  color: aqua;
+  font-family: cursive;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px rgb(107, 103, 103);
+}
+
+.card > * {
+  padding: 1em;
+  margin: 1em;
+}
